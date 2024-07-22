@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HeavitasFont";
+  src: url("./assets/font/Heavitas.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TomatoesFont";
+  src: url("./assets/font/Tomatoes.ttf") format("truetype");
+}
+.heavitas_font {
+  font-family: "HeavitasFont", sans-serif;
+}
+.tomatoes_font {
+  font-family: "TomatoesFont", sans-serif;
+}
+.poppins_font {
+  font-family: "Poppins", sans-serif;
+}
